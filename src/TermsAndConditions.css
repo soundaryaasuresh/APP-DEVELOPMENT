@@ -1,0 +1,55 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.terms-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: url('https://th.bing.com/th/id/OIP.r2FfuJZw53auODS3Rv_6EgAAAA?w=302&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
+
+.terms-header {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  text-align: center;
+}
+
+.terms-header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.terms-content {
+  flex: 1;
+  padding: 40px 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.terms-content section {
+  margin-bottom: 40px;
+}
+
+.terms-content h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.terms-content p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.terms-footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  text-align: center;
+}
+
+.terms-footer p {
+  margin: 0;
+}
